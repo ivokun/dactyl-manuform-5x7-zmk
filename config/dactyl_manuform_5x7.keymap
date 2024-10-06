@@ -38,8 +38,8 @@
                 &pht LCTRL ESC &kp A    &kp S  &kp D  &kp F  &kp G  &kp EQUAL           &tog LWR &kp H  &kp J  &kp K     &kp L     &kp SEMI     &kp SQT
                 &kp  LSHFT  &kp Z    &kp X  &kp C  &kp V  &kp B                                  &kp N  &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
                 &kp  CAPS  &kp LGUI &kp TAB_L &kp TAB_R                                                 &kp LEFT  &kp UP  &kp DOWN    &kp RIGHT
-                                            &kp RSE  &mo SPACE                         &kp BSPACE  &kp RET 
-                                            &kp END   &kp HOME                          &kp PGUP &mo PGDWN 
+                                            &mo RSE  &kp SPACE                         &kp BSPACE  &kp RET 
+                                            &kp END   &kp HOME                          &kp PGUP &kp PGDWN 
                                             &kp PRTSCR &kp LALT                          &kp RCTRL &kp RALT 
             >;
         };
