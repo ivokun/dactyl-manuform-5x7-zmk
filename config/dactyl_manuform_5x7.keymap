@@ -53,7 +53,7 @@
                 &kp  CAPS  &kp LGUI &trans &trans                                 &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
                                             &mo RSE  &kp SPACE                          &kp BSPC  &kp RET 
                                             &kp END   &kp HOME                          &kp PG_UP &kp PG_DN
-                                            &kp PRTSCR &kp LALT                         &kp RCTRL &kp RALT 
+                                            &kp PSCRN &kp LALT                         &kp RCTRL &kp RALT 
             >;
         };
 
