@@ -52,7 +52,7 @@
                 &kp  LSHFT  &kp Z    &kp X  &kp C  &kp V  &kp B                                  &kp N  &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
                 &kp  CAPS  &kp LGUI &trans &trans                                 &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
                                             &mo RSE  &kp SPACE                          &kp BSPC  &kp RET 
-                                            &kp END   &kp HOME                          &kp PGUP &kp PGDWN 
+                                            &kp END   &kp HOME                          &kp PG_UP &kp PG_DN
                                             &kp PRTSCR &kp LALT                         &kp RCTRL &kp RALT 
             >;
         };
