@@ -31,8 +31,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LSHFT &kp LCTRL &kp ESC>
-                , <&macro_release &kp ESC &kp LCTRL &kp LSHFT>
+                = <&macro_press &kp LSHFT>
+                , <&macro_press &kp LCTRL>
+                , <&macro_press &kp ESC>
+                , <&macro_release &kp ESC>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LSHFT>
                 ;
         };
     tab_r: tab_r {
