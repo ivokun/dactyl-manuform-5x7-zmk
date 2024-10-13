@@ -38,8 +38,8 @@
                 , <&macro_release &kp LCTRL>
                 , <&macro_release &kp LSHFT>
                 ;
-        };
-    tab_r: tab_r {
+    };
+    tabr: tabr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <1>;
             bindings
@@ -47,8 +47,8 @@
                 , <&macro_tap &kp TAB>
                 , <&macro_release &kp LCTRL>
                 ;
-        };
-    tab_l: tab_l {
+    };
+    tabl: tabl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <2>;
             bindings
@@ -58,7 +58,7 @@
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp LCTRL>
                 ;
-        };
+    };
 
   };
     keymap {
@@ -70,7 +70,7 @@
                 &kp  TAB   &kp Q    &kp W  &kp E  &kp R  &kp T  &kp LBKT                &kp RBKT &kp Y  &kp U  &kp I    &kp O       &kp P       &kp BSLH
                 &kp  LCTRL &kp A    &kp S  &kp D  &kp F  &kp G  &task                   &tog LWR &kp H  &kp J  &kp K     &kp L     &kp SEMI     &kp SQT
                 &kp  LSHFT  &kp Z    &kp X  &kp C  &kp V  &kp B                                  &kp N  &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                &kp  CAPS  &kp LGUI &tab_l &tab_r                                 &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
+                &kp  CAPS  &kp LGUI &tabl &tabr                                 &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
                                             &mo RSE  &kp SPACE                          &kp BSPC  &kp RET 
                                             &kp END   &kp HOME                          &kp PG_UP &kp PG_DN
                                             &kp PSCRN &kp LALT                         &kp RCTRL &kp RALT 
