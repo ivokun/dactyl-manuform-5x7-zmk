@@ -73,7 +73,7 @@
                 &kp  CAPS  &kp LGUI &tab_l &tab_r                                 &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
                                             &mo RSE  &kp SPACE                          &kp BSPC  &kp RET 
                                             &kp END   &kp HOME                          &kp PG_UP &kp PG_DN
-                                            &kp PSCRN &kp LALT                         &kp RCTRL &kp RALT 
+                                            &bt BT_CLR &bt BT_NXT                          &kp RCTRL &kp RALT 
             >;
         };
 
